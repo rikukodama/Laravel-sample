@@ -11,11 +11,15 @@ class CustomersController extends Controller
     private $common;
     private $customer;
 
+
+
+
+    
     public function __construct(Common $common, Customer $customer)
     {
         $this->common = $common;
         $this->customer = $customer;
-    
+
     }
     public function index()
     {
